@@ -39,7 +39,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`ID`, `users_email`, `users_pwd`) VALUES
-(1, 'aditi@gmail.com', 'e6ebc25fd4e7bba9bf3b5e4bbdc0ffc3');
+(1, 'admin@gmail.com', 'e6ebc25fd4e7bba9bf3b5e4bbdc0ffc3');
 
 -- --------------------------------------------------------
 
@@ -151,7 +151,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`ID`, `users_name`, `users_email`, `users_pwd`, `users_gender`, `users_dob`, `users_tmarks`, `phy`, `chem`, `math`, `bio`, `com`, `pay_st`, `phy_s`, `chem_s`, `math_s`, `bio_s`, `com_s`, `up`) VALUES
-(23, 'Lubdhak Mahapatra', 'lubdhak12@gmail.com', '01cfcd4f6b8770febfb40cb906715822', 'male', '1993-04-03', 493, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0);
+(23, 'Lubdhak Mahapatra', 'lubdhak@gmail.com', '01cfcd4f6b8770febfb40cb906715822', 'male', '1993-04-03', 493, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0);
 
 --
 -- Indexes for dumped tables
