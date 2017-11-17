@@ -6,5 +6,9 @@ localhost/phpmyadmin with the name testdata
 
 2.Import table from testdata.sql
 
-3. & start using
+& start using
+
+Admin Page: /admin
+Admin ID : admin@gmail.com
+Admin Pass : e6ebc25fd4e7bba9bf3b5e4bbdc0ffc3
 
