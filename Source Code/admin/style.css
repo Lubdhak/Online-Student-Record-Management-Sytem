@@ -1,0 +1,41 @@
+#wrapper{
+	width: 100%;
+	margin: 0px auto;
+}
+#rpanel{
+	width: 23%;
+	height: 540px;
+	float: left;
+	background-color: red;
+}
+#ipage{
+	width: 100%;
+}
+#logo{
+	width: 400px;
+	height: 120px;
+	background-color: #F9EBD6;
+}
+#logo img{
+	margin: 11px 0px 0px 0px;
+}
+#lform{
+	width: 400px;
+	height: 350px;
+	background-color: orange;
+}
+#lform input[type=text], [type=password]{
+	width: 250px;
+	height: 25px;
+	border: 2px solid blue;
+	border-radius: 4px;
+}
+#lform input[type=checkbox]{
+	width: 15px;
+	height: 15px;
+}
+.logout{
+	width: 300px;
+	height: 200px;
+	float: right;
+}

@@ -1,0 +1,206 @@
+#adwrapper{
+    width: 100%;
+    margin: 0px auto;
+}
+#adheader {
+    color: #ccc;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #23282d;
+}
+#adlpanel{
+    width: 17%;
+    height: 600px;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    background-color: #23282d;
+    float: left;
+}
+#adcontent{
+    width: 83%;
+    height: 600px;
+    position: fixed;
+    top: 50px;
+    left: 17%;
+    background-color: #f1f1f1;
+    overflow-y: scroll;
+    float: right;
+}
+#adfooter{
+    width: 83%;
+    height: 60px;
+    float: left;
+}
+.menu{
+    border: inset;
+    text-align: center;
+}
+#adlpanel table a{
+    font-size: 40px;
+    text-decoration: none;
+}
+#adheader input[type=submit]{
+    margin: 0px 5px 0px 0px;
+}
+.table{
+    width: 400px;
+    height: 330px;
+    margin: 30px 0px 0px 30px;
+    background-color: white;
+    border: outset;
+    float: left;
+}
+.tabler{
+    width: 620px;
+    height: 330px;
+    margin: 30px 30px 0px 0px;
+    background-color: white;
+    border: outset;
+    float: right;
+}
+.tablerr{
+    width: 620px;
+    height: 330px;
+    margin: 30px 30px 0px 0px;
+    background-color: white;
+    border: outset;
+    overflow-y: scroll;
+    text-align: center;
+    float: right;
+}
+.tablep{
+    width: 400px;
+    height: 330px;
+    margin: 30px 30px 0px 0px;
+    background-color: white;
+    border: outset;
+    overflow-y: scroll;
+    float: right;
+}
+.tables{
+    width: 500px;
+    height: 330px;
+    margin: 30px 0px 0px 30px;
+    background-color: white;
+    border: outset;
+    overflow-y: scroll;
+    float: left;
+}
+.tableps{
+    width: 500px;
+    height: 330px;
+    margin: 30px 30px 0px 0px;
+    background-color: white;
+    border: outset;
+    overflow-y: scroll;
+    float: right;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    
+}
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 10;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    border: outset;
+}
+
+.dropdown-content a:hover {
+    background-color: orange;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.publish{
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: green;
+    border-radius: 4px;
+    position: relative;
+    top: 120px;
+}
+.publishas{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: green;
+    border-radius: 4px;
+    position: relative;
+    top: 80px;
+}
+.publishar{
+    width: 220px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: green;
+    border-radius: 4px;
+    position: relative;
+    top: 80px;
+}
+.userp{
+    width: 700px;
+    height: 500px;
+    overflow-y: scroll;
+    background-color: white;
+    border: outset;
+    margin: 30px 0px 0px 200px;
+}
+.users{
+    width: 700px;
+    height: 500px;
+    background-color: white;
+    border: outset;
+    margin: 30px 0px 0px 200px;
+}
+.users b{
+    font-size: 20px;
+}
+.tablerrr{
+    width: 60px;
+    height: 30px;
+    background-color: white;
+}

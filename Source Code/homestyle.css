@@ -1,0 +1,67 @@
+#wrapper{
+	width: 1000px;
+	margin: 0px auto;
+}
+#header{
+	width: 1000px;
+	height: 200px;
+	background-color: yellow;
+}
+#content{
+	width: 800px;
+	height: 600px;
+	background-color: lightblue;
+	float: left;
+}
+#rpanel{
+	width: 200px;
+	height: 600px;
+	background-color: orange;
+	float: right;
+}
+#logo{
+	width: 200px;
+	height: 100px;
+	margin: 50px 0px 0px 10px;
+	float: left;
+}
+#profile{
+	width: 300px;
+	height: 200px;
+	float: right;
+}
+#rpanel table a{
+	font-size: 40px;
+	text-decoration: none;
+}
+.menu{
+	border: inset;
+	text-align: center;
+}
+#content input[type=text],[type=email],[type=password],[type=date]{
+	width: 200px;
+	height: 30px;
+	border: 2px solid blue;
+	border-radius: 4px;
+	font-weight: bold;
+}
+#content input[type=submit]{
+	width: 100px;
+	height: 30px;
+	background-color: green;
+	border-radius: 4px;
+	font-weight: bold;
+	color: white;
+	cursor: pointer;
+}
+.error{
+	color: red;
+}
+.top{
+	width: 400px;
+	height: 500px;
+	border: outset;
+	background-color: white;
+	position: relative;
+	margin: 0px 0px 0px 200px;
+}

@@ -1,0 +1,9 @@
+Admin login :
+aditi@gmail.com
+e6ebc25fd4e7bba9bf3b5e4bbdc0ffc3/54321
+
+#Ignore_1
+INSERT INTO `admin` (`ID`, `users_email`, `users_pwd`) VALUES ('1', 'aditi@gmail.com', 'e6ebc25fd4e7bba9bf3b5e4bbdc0ffc3')
+
+#Ignore_2
+DELETE FROM table LIMIT 10
